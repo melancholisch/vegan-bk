@@ -1,0 +1,90 @@
+/* RESETANDO */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* INICIO DO CSS */
+.nav{
+    width: 100vw;
+    padding: 8px;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+h5 {
+    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+}
+.nome {
+    font-size: 30px;
+
+}
+.logo{
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
+}
+.logo-p{
+    width: 60px;
+    height: auto;
+    margin-left: 15px;
+}
+.nav-item{
+    font-family: 'Inconsolata', monospace;
+    margin-left: 40px;
+}
+.hamburguinhos, .card-title{
+    display: flex;
+    justify-content: center;
+}
+/* CARDS */
+.card-deck{
+    width: 100vw;
+}
+.segundo{
+    margin-top: 5vh;
+}
+.card-deck p, small{
+    font-family: 'Inconsolata', monospace;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+    bottom:0;
+    width: 100vw;
+}
+.pezinho{
+    display: flex;
+    align-items: center;
+    padding: 2vh;
+}
+.centrinho, .centrinho-lef{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    align-content: center;
+    margin-top:10px; 
+}
+.centrinho-lef{
+    margin-right: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:980px){
+    footer, .pezinho{
+        display: block;
+        height: auto;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .centrinho, .centrinho-lef, .pezinho{
+        font-size: 15px;
+    }
+
+}

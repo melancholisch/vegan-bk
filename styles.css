@@ -1,0 +1,92 @@
+/* RESETANDO */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* INICIO DO CSS */
+.nav{
+    width: 100vw;
+    padding: 8px;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+h5 {
+    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+}
+.nome {
+    font-size: 30px;
+
+}
+.logo{
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
+}
+.logo-p{
+    width: 60px;
+    height: auto;
+    margin-left: 15px;
+}
+.nav-item{
+    font-family: 'Inconsolata', monospace;
+    margin-left: 40px;
+}
+/* CONFIGURAÇÃO DO SLIDER */
+.carousel-item{
+    height: 70vh; /* dimensiona o slider à altura do viewport */
+    width: 100vw;
+}
+.carousel-item img{
+    height: 100vh;
+    width: 100vw;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.pezinho{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.centrinho, .centrinho-lef{
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    align-content: center;
+    margin-top:20px; 
+}
+.centrinho-lef{
+    margin-right: 20px;
+}
+
+/*MEDIA QUERIES */ 
+@media (max-width:980px){
+    .carousel-item{
+        height: 50vh; /* dimensiona o slider à altura do viewport */
+        width: 100vw;
+    }
+    .carousel-item img{
+        height: 50vh;
+        width: 100vw;
+    }
+    .pezinho{
+        margin-left: 0px;
+    }
+    footer, .pezinho{
+        margin-top: 35px;
+        display: block;
+        height: auto;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .centrinho, .centrinho-lef, .pezinho{
+        font-size: 15px;
+    }
+
+}
